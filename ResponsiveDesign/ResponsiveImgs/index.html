@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+	  <div class="picture"> <!-- no es recomendable hacer esto -->
+	    <img src="./img/large.jpg" alt=""></img>
+	  </div>
+	  <picture>
+    	<source media="(min-width: 1300px)"  srset="./imgs/large.jpg"><!-- primero la imagen mas grande -->
+	    <source media="(min-width: 1000px)" srset="./imgs/medium.jpg">
+	    <img src="./imgs/small.jpg" alt="Es una imagen de ejemplo"></img><!-- por último la imagen más chica y esta es la que renderiza -->
+	  </picture>
+	</main>
+</body>
+</html>

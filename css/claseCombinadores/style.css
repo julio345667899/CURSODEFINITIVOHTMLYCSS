@@ -1,0 +1,16 @@
+/* Combinadores: Adjacent Sibling */
+h2 + p{
+    color: red;
+}
+/* Combinadores: General Sibling */
+h2 ~ p{
+    color: red;
+}
+/* Combinadores: Hijo */
+div > p{
+    color: red;
+}
+/* Combinadores: Descendiente */
+div p{
+    color: red;
+}

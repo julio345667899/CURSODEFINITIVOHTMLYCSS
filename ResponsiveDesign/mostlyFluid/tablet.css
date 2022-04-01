@@ -1,0 +1,7 @@
+@media(min-width: 600px){/*Este bloque de código se sacó de style.css*/
+    .c2,
+    .c3,
+    .c4{
+        width: 50%;
+    }
+}

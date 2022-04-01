@@ -1,0 +1,9 @@
+/*No es buena practica*/
+/* .picture{
+	  width: 500px;
+	  height: 400px;
+	} */
+img {
+  width: 100%; /* Es tu mejor amigo para las imagenes */
+}
+/* ----------- */
